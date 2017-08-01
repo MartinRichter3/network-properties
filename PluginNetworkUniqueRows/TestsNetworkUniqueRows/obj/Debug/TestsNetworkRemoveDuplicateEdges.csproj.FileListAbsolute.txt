@@ -1,0 +1,17 @@
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\TestsNetworkUniqueRows.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\TestsNetworkUniqueRows.pdb
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\BaseLib.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\BaseLibS.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\nunit.framework.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\PerseusApi.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\PerseusLibS.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\nunit.framework.xml
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\PerseusApi.xml
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\obj\Debug\TestsNetworkRemoveDuplicateEdges.csprojResolveAssemblyReference.cache
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\obj\Debug\TestsNetworkUniqueRows.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\obj\Debug\TestsNetworkUniqueRows.pdb
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\Calc.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\NumPluginSvm.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\PerseusPluginLib.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\PluginNetworkUniqueRows.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\TestsNetworkUniqueRows\bin\Debug\PluginNetworkUniqueRows.pdb

@@ -1,0 +1,11 @@
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PluginNetworkUniqueRows.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PluginNetworkUniqueRows.pdb
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\BaseLib.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\BaseLibS.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\NumPluginSvm.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PerseusApi.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PerseusLibS.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PerseusApi.xml
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\obj\Debug\PluginNetworkUniqueRows.dll
+c:\users\ldeininger\documents\visual studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\obj\Debug\PluginNetworkUniqueRows.pdb
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\PluginNetworkUniqueRows\PluginNetworkUniqueRows\obj\Debug\PluginNetworkRemoveDuplicateEdges.csprojResolveAssemblyReference.cache
