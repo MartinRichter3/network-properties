@@ -8,3 +8,14 @@ C:\Users\ldeininger\Desktop\backupUnique\PluginNetworkUniqueRows\PluginNetworkUn
 C:\Users\ldeininger\Desktop\backupUnique\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PerseusApi.xml
 C:\Users\ldeininger\Desktop\backupUnique\PluginNetworkUniqueRows\PluginNetworkUniqueRows\obj\Debug\PluginNetworkUniqueRows.dll
 C:\Users\ldeininger\Desktop\backupUnique\PluginNetworkUniqueRows\PluginNetworkUniqueRows\obj\Debug\PluginNetworkUniqueRows.pdb
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PluginNetworkUniqueRows.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PluginNetworkUniqueRows.pdb
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\BaseLib.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\BaseLibS.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\NumPluginSvm.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PerseusApi.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PerseusLibS.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\bin\Debug\PerseusApi.xml
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\obj\Debug\PluginNetworkUniqueRows.csprojResolveAssemblyReference.cache
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\obj\Debug\PluginNetworkUniqueRows.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginNetworkUniqueRows\PluginNetworkUniqueRows\obj\Debug\PluginNetworkUniqueRows.pdb

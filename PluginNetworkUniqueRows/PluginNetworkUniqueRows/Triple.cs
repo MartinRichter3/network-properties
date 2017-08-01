@@ -14,7 +14,7 @@ namespace PluginNetworkUniqueRows
             {
                 return this.Two.CompareTo(other.Two);
             }
-            return this.One.CompareTo(other.One);
+			return this.One.CompareTo(other.One);
         }
     }
 }

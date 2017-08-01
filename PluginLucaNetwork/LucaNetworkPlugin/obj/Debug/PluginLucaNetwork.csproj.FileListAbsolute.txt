@@ -8,3 +8,13 @@ C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\Luca
 C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\obj\Debug\PluginLucaNetwork.dll
 C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\obj\Debug\PluginLucaNetwork.pdb
 C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\obj\Debug\PluginLucaNetwork.csprojResolveAssemblyReference.cache
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PluginLucaNetwork.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PluginLucaNetwork.pdb
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\BaseLib.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\BaseLibS.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PerseusApi.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PerseusLibS.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PerseusApi.xml
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\obj\Debug\PluginLucaNetwork.csprojResolveAssemblyReference.cache
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\obj\Debug\PluginLucaNetwork.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\obj\Debug\PluginLucaNetwork.pdb
