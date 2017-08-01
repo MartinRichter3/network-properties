@@ -6,18 +6,21 @@ using PluginLucaNetwork;
 using PluginLucaNetwork.Python;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 
 namespace PluginLucaNetworkTest
 {
     [TestFixture]
     public class AllTests : BaseTest
     {
-        [Test]
+		[Test]
         public void TestRead()
         {
-            var path = "C:\\Users\\ldeininger\\Documents\\Visual Studio 2017\\Projects\\LucaNetworkPlugin\\PluginLucaNetworkTest\\NetworkFiles";
-            INetworkData ndata = new NetworkData();
+			string currentDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+			string path = Path.GetFullPath(Path.Combine(currentDirectory, @"..\..\NetworkFiles"));
+			INetworkData ndata = new NetworkData();
             NetworkIO.Read(ndata, path, new ProcessInfo(new Settings(), status => { }, progress => { }, 1, i => { }));
             var numberOfNetworks = 0;
             foreach (var network in ndata)
@@ -42,8 +45,9 @@ namespace PluginLucaNetworkTest
         [Test]
         public void TestReadAndUndirected()
         {
-            var path = "C:\\Users\\ldeininger\\Documents\\Visual Studio 2017\\Projects\\LucaNetworkPlugin\\PluginLucaNetworkTest\\NetworkFiles";
-            INetworkData ndata = new NetworkData();
+			string currentDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+			string path = Path.GetFullPath(Path.Combine(currentDirectory, @"..\..\NetworkFiles"));
+			INetworkData ndata = new NetworkData();
             NetworkIO.Read(ndata, path, new ProcessInfo(new Settings(), status => { }, progress => { }, 1, i => { }));
             CalcProperties calcs = new CalcProperties();
             List<Boolean> observedWhat = new List<Boolean> { };
@@ -62,8 +66,9 @@ namespace PluginLucaNetworkTest
         [Test]
         public void TestReadAndConnected()
         {
-            var path = "C:\\Users\\ldeininger\\Documents\\Visual Studio 2017\\Projects\\LucaNetworkPlugin\\PluginLucaNetworkTest\\NetworkFiles";
-            INetworkData ndata = new NetworkData();
+			string currentDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+			string path = Path.GetFullPath(Path.Combine(currentDirectory, @"..\..\NetworkFiles"));
+			INetworkData ndata = new NetworkData();
             NetworkIO.Read(ndata, path, new ProcessInfo(new Settings(), status => { }, progress => { }, 1, i => { }));
             CalcProperties calcs = new CalcProperties();
             List<Boolean> observedWhat = new List<Boolean> { };
