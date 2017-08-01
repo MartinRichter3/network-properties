@@ -1,0 +1,10 @@
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\bin\Release\PluginLucaNetwork.dll
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\bin\Release\PluginLucaNetwork.pdb
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\bin\Release\BaseLib.dll
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\bin\Release\BaseLibS.dll
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\bin\Release\PerseusApi.dll
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\bin\Release\PerseusLibS.dll
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\bin\Release\PerseusApi.xml
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\obj\Release\PluginLucaNetwork.csprojResolveAssemblyReference.cache
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\obj\Release\PluginLucaNetwork.dll
+C:\Users\ldeininger\Documents\Visual Studio 2017\Projects\LucaNetworkPlugin\LucaNetworkPlugin\obj\Release\PluginLucaNetwork.pdb
