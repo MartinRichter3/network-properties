@@ -18,7 +18,7 @@ given_prop = multiChoiceParam(p, 'Properties').values()
 directed = singleChoiceParam(p, 'Graph type')
 directed = 1 if directed == 'Directed' else 0
 which_prop = []
-allProperties = ["Network \t Density", "Network \t Average node connectivity", "Network \t Node connectivity", "Network \t Edge connectivity", "Network \t Diameter", "Network \t Radius", "Node \t Degree", "Node \t Degree centrality", "Node \t Closeness centrality", "Node \t Betweenness centrality", "Node \t Average neighbor degree", "Node \t Clustering coefficient", "Edge \t Betweenness centrality"]    
+allProperties = ["Network \t Density", "Network \t Average node connectivity", "Network \t Node connectivity", "Network \t Edge connectivity", "Network \t Diameter", "Network \t Radius", "Node \t Degree", "Node \t Out-degree", "Node \t Degree centrality", "Node \t In-degree centrality", "Node \t Out-degree centrality", "Node \t Closeness centrality", "Node \t Betweenness centrality", "Node \t Average neighbor degree", "Node \t Clustering coefficient", "Edge \t Betweenness centrality"]    
 for property in given_prop:
     which_prop.append(allProperties.index(property))
 #####
@@ -88,18 +88,24 @@ def calc_network_properties(allDicts):
         if 6 in which_prop:
             nodes[GUID]['Degree'] = pd.DataFrame({'Degree':list(nx.degree(G).values())}) # degree
         if 7 in which_prop:
-            nodes[GUID]['Degree_centrality'] = pd.DataFrame({'Degree_centrality':list(nx.degree_centrality(G).values())}) # degree/ max. possible degree
+            nodes[GUID]['Out_Degree'] = pd.DataFrame({'Out_Degree':list(G.out_degree().values())}) # degree
         if 8 in which_prop:
-            nodes[GUID]['Closeness_centrality'] = pd.DataFrame({'Closeness_centrality':list(nx.closeness_centrality(G).values())}) # sum of the length of the shortest paths between the node and all other nodes[GUID]
+            nodes[GUID]['Degree_centrality'] = pd.DataFrame({'Degree_centrality':list(nx.degree_centrality(G).values())}) # degree/ max. possible degree    
         if 9 in which_prop:
-            nodes[GUID]['Betweenness_centrality'] = pd.DataFrame({'Betweenness_centrality':list(nx.betweenness_centrality(G).values())}) # sum over all pairs of nodes[GUID]: number of shortest paths through v / number of all shortest paths
+            nodes[GUID]['In_Degree_centrality'] = pd.DataFrame({'In_Degree_centrality':list(nx.in_degree_centrality(G).values())}) # degree/ max. possible degree
         if 10 in which_prop:
-            nodes[GUID]['Avg_neighbor_deg'] = pd.DataFrame({'Avg_neighbor_deg':list(nx.average_neighbor_degree(G).values())})
+            nodes[GUID]['Out_Degree_centrality'] = pd.DataFrame({'Out_Degree_centrality':list(nx.out_degree_centrality(G).values())}) # degree/ max. possible degree
         if 11 in which_prop:
+            nodes[GUID]['Closeness_centrality'] = pd.DataFrame({'Closeness_centrality':list(nx.closeness_centrality(G).values())}) # sum of the length of the shortest paths between the node and all other nodes[GUID]
+        if 12 in which_prop:
+            nodes[GUID]['Betweenness_centrality'] = pd.DataFrame({'Betweenness_centrality':list(nx.betweenness_centrality(G).values())}) # sum over all pairs of nodes[GUID]: number of shortest paths through v / number of all shortest paths
+        if 13 in which_prop:
+            nodes[GUID]['Avg_neighbor_deg'] = pd.DataFrame({'Avg_neighbor_deg':list(nx.average_neighbor_degree(G).values())})
+        if 14 in which_prop:
             nodes[GUID]['Clustering_coefficient'] = pd.DataFrame({'Clustering_coefficient':list(nx.clustering(G).values())})#if not nx.is_directed(G):
 
     # Edge level
-        if 12 in which_prop:
+        if 15 in which_prop:
             if directed == 0:
                 edges[GUID] = add_undirected_edge_properties(edges[GUID], nx.edge_betweenness_centrality(G), 'Edge_Betweenness_Centrality')
             else:
