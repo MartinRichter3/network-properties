@@ -57,10 +57,6 @@ namespace TestsNetworkUniqueRows
             {
                 network.UniqueRows(network.EdgeTable.StringColumns[0], network.EdgeTable.StringColumns[1], network.NodeTable.StringColumns[0], ArrayUtils.Median, RemoveDuplicateEdges.Union, RemoveDuplicateEdges.CatUnion, RemoveDuplicateEdges.MultiNumUnion);
                 Assert.True(network.EdgeTable.RowCount <= 150);
-                var u = network.Graph.NumberOfEdges;
-                var v = network.EdgeTable.RowCount;
-                var x = network.Graph.NumberOfNodes;
-                var y = network.NodeTable.RowCount;
                 Assert.True(network.EdgeTable.RowCount == network.Graph.NumberOfEdges);
                 Assert.True(network.NodeTable.RowCount == network.Graph.NumberOfNodes);
             }

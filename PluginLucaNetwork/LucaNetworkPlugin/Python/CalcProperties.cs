@@ -19,7 +19,7 @@ namespace PluginLucaNetwork.Python
         {
             Boolean undirected = CheckDataUndirected(ndata);
             Boolean connected = CheckDataConnected(ndata);
-            var valuesList = new List<String>() { "Network \t Density", "Network \t Average node connectivity", "Network \t Node connectivity", "Network \t Edge connectivity", "Network \t Diameter", "Network \t Radius", "Node \t Degree", "Node \t Degree centrality", "Node \t Closeness centrality", "Node \t Betweenness centrality", "Node \t Average neighbor degree", "Node \t Clustering coefficient", "Edge \t Betweenness centrality" };
+            var valuesList = new List<String>() { "Network \t Density", "Network \t Average node connectivity", "Network \t Node connectivity", "Network \t Edge connectivity", "Network \t Diameter", "Network \t Radius", "Node \t Degree", "Node \t Out-degree", "Node \t Degree centrality", "Node \t In-degree centrality", "Node \t Out-degree centrality", "Node \t Closeness centrality", "Node \t Betweenness centrality", "Node \t Average neighbor degree", "Node \t Clustering coefficient", "Edge \t Betweenness centrality" };
             string[] values = UpdateParameterPropertyValues(valuesList, undirected, connected);
             string[] directedOrNot = { undirected ? "Undirected" : "Directed" };
             Parameters parameters = new Parameters();
@@ -38,6 +38,12 @@ namespace PluginLucaNetwork.Python
 
         private String[] UpdateParameterPropertyValues(List<string> valuesList, Boolean undirected, Boolean connected)
         {
+			if (undirected)
+			{
+				valuesList.Remove(valuesList.Single(x => x.Equals("Node \t Out-degree")));
+				valuesList.Remove(valuesList.Single(x => x.Equals("Node \t In-degree centrality")));
+				valuesList.Remove(valuesList.Single(x => x.Equals("Node \t Out-degree centrality")));
+			}
             if (!connected)
             {
                 valuesList.Remove(valuesList.Single(x => x.Equals("Network \t Diameter")));
@@ -46,10 +52,10 @@ namespace PluginLucaNetwork.Python
             }
             else
             {
-                if (!undirected)
-                {
-                    valuesList.Remove(valuesList.Single(x => x.Equals("Node \t Clustering coefficient")));
-                }
+				if (!undirected)
+				{
+					valuesList.Remove(valuesList.Single(x => x.Equals("Node \t Clustering coefficient")));
+				}
             }
             return valuesList.ToArray();
         }
