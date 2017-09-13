@@ -1,0 +1,9 @@
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PluginNetworkInterop.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PluginNetworkInterop.pdb
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\BaseLib.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\BaseLibS.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PerseusApi.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PerseusLibS.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\bin\Debug\PerseusApi.xml
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\obj\Debug\PluginNetworkInterop.dll
+C:\Users\ldeininger\Source\Repos\network-properties\PluginLucaNetwork\LucaNetworkPlugin\obj\Debug\PluginNetworkInterop.pdb

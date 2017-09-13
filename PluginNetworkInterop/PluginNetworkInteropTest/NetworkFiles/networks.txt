@@ -1,0 +1,9 @@
+GUID	Name
+#!{Description}unique network Id	Name of the network
+#!{Type}T	T
+d726a22f-1e41-4b4c-83f5-05707bea54b1	Random
+6419df15-c03b-4354-9949-08f7bcb06df9	UndirectedConnected
+8dd8865d-e8d7-40c9-bccf-db23b2a381e5	Complete
+fe45f5e9-4ab3-4f77-8024-01f60ab43e13	UndirectedUnconnected
+4bf46013-3dc1-451e-b914-9e128e76b7fb	DirectedConnected
+7bba9a56-9655-44ef-8c51-55abf1e08763	DirectedUnconnected
