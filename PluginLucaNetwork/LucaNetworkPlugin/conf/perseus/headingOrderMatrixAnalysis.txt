@@ -1,5 +1,0 @@
-Visualization
-Clustering/PCA
-Tests
-Manual editing
-Misc.
